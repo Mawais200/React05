@@ -15,7 +15,7 @@ export default function Lottery() {
             <h1 className="text-3xl font-bold mb-4">Lottery Game</h1>
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <h2 className={`text-xl font-semibold ${isWinning ? 'text-green-400' : 'text-red-400'}`}>
-                    {isWinning ? "Congratulations! You Won the Match 🎉" : "Try Again!"}
+                    {isWinning ? "Congratulations! You Won the Match " : "Try Again!"}
                 </h2>
                 <div className="flex justify-center space-x-4 text-2xl my-4">
                     {ticket.map((num, index) => (
